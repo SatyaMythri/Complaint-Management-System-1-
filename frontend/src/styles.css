@@ -1,0 +1,323 @@
+body{
+    margin:0;
+    padding:0;
+    background:#f4f7fb;
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
+
+.auth-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#1976d2,#42a5f5);
+
+}
+
+.auth-card{
+
+    width:420px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+
+}
+
+.fade-card{
+
+    animation:fadeIn .7s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.form-control{
+
+    border-radius:10px;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+}
+
+.navbar{
+
+    box-shadow:0 5px 12px rgba(0,0,0,.15);
+
+}
+
+.navbar-brand{
+
+    font-size:1.4rem;
+
+    font-weight:bold;
+
+}
+
+.nav-link{
+
+    color:white!important;
+
+    font-weight:500;
+
+    margin-right:10px;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#ffd54f!important;
+
+}
+
+.dashboard-card{
+
+    color:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-card h2{
+
+    font-size:42px;
+
+    font-weight:bold;
+
+}
+
+.dashboard-card h5{
+
+    font-weight:600;
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+}
+
+.table{
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+.table thead{
+
+    background:#1976d2;
+
+    color:white;
+
+}
+
+.badge{
+
+    font-size:14px;
+
+    padding:8px 14px;
+
+}
+
+.btn-primary{
+
+    background:#1976d2;
+
+}
+
+.btn-success{
+
+    background:#2e7d32;
+
+}
+
+.btn-warning{
+
+    background:#f9a825;
+
+}
+
+.btn-danger{
+
+    background:#d32f2f;
+
+}
+
+.container{
+
+    animation:fadeIn .5s;
+
+}
+.dashboard-card {
+    border-radius: 15px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.4s ease;
+    animation: fadeUp 0.8s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+body[data-bs-theme="dark"] {
+
+    background: #121212;
+    color: white;
+
+}
+
+body[data-bs-theme="dark"] .card {
+
+    background: #1e1e1e;
+    color: white;
+
+}
+body[data-bs-theme="dark"] .table {
+
+    color: white;
+
+}
+body[data-bs-theme="dark"] .table thead {
+
+    background: #2b2b2b;
+
+}
+body[data-bs-theme="dark"] .table td,
+body[data-bs-theme="dark"] .table th {
+
+    border-color: #555;
+
+}
+body[data-bs-theme="dark"] .form-control,
+body[data-bs-theme="dark"] .form-select {
+
+    background: #2d2d2d;
+    color: white;
+    border-color: #666;
+
+}
+body[data-bs-theme="dark"] .form-control::placeholder {
+
+    color: #bbb;
+
+}
+body[data-bs-theme="dark"] .modal-content {
+
+    background: #1f1f1f;
+    color: white;
+
+}
+/* Login/Register Card */
+body[data-bs-theme="dark"] .card {
+    background-color: #1f2937 !important;
+    color: white !important;
+    border: 1px solid #444;
+}
+body[data-bs-theme="dark"] .form-control,
+body[data-bs-theme="dark"] .form-select {
+
+    background-color: #2d3748 !important;
+    color: white !important;
+    border: 1px solid #555;
+
+}
+body[data-bs-theme="dark"] .form-control::placeholder{
+    color:#bfbfbf;
+}
+body[data-bs-theme="dark"] label{
+    color:white;
+}
+body[data-bs-theme="dark"] .alert{
+    color:white;
+}
