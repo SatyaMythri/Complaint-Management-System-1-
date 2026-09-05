@@ -5,7 +5,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
-import StaffDashboard from "./pages/Staffdashboard";
+import StaffDashboard from "./pages/StaffDashboard";
 import AddComplaint from "./pages/AddComplaint";
 import ViewComplaints from "./pages/ViewComplaints";
 import AdminDashboard from "./pages/AdminDashboard";
