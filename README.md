@@ -172,6 +172,9 @@ Runs the full Jest/Supertest suite (90+ tests). Uses `mongodb-memory-server`, wh
 - File uploads restricted by type (images + PDF) and size (5MB/file, 5 files max), validated server-side.
 - `.env` files are excluded from version control — see `.env.example` for required variables.
 
+## Product Documentation
+[Personas, user stories, backlog and success metrics](<Complaint Management System – Simple Product Document.pdf>)
+
 ## Author
 
 Satya Mythri
